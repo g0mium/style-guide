@@ -63,7 +63,7 @@ h1 {
   justify-content: flex-end;
   align-items: center;
   transition: transform 0.1s;
-  /* border-radius: 6em; */
+  // border-radius: 2em;
 }
 
 .color:hover {
@@ -124,27 +124,27 @@ h2.color-header {
 /* Color Styles */
 .payne-gray {
   background-color: #5d737e;
-  color: #000;
+  color: #fff;
 }
 .night {
   background-color: #03120e;
   color: #fff;
 }
-.vanilla {
-  background-color: #f2f3ae;
+.tea-green {
+  background-color: #cce8cc;
   color: #000;
 }
-.electric-blue {
-  background-color: #2de1fc;
+.mimi-pink {
+  background-color: #f7d6e0;
   color: #000;
 }
-.sandy-brown {
-  background-color: #fc9e4f;
+.burnt-sienna {
+  background-color: #ee6c4d;
   color: #000;
 }
-.mauve {
-  background-color: #e2adf2;
-  color: #000;
+.dark-purple {
+  background-color: #382633;
+  color: #fff;
 }
 
 .color-label {
@@ -185,27 +185,25 @@ h2.font-header {
 .font-card {
   display: flex;
   flex-direction: column;
-  position: relative;
   top: 50px;
-  margin: 20px;
-  padding: 10px 0 40px 0;
+  margin: 30px auto;
+  padding: 20px;
   background-color: #f5f5f5;
-  /* border-radius: 2em; */
+  width: 80%;
+  border-radius: 1.2em;
 }
 
 .font-name {
-  color: #000000;
+  color: #03120e;
   text-align: center;
   font-size: 30px;
   margin: 0;
 }
 
 .font-label {
-  margin: 20px auto 20px auto;
-  display: flex;
-  flex-direction: column;
-  padding-top: 2px;
-  background-color: #99c6fa;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  /* background-color: #99c6fa; */
   width: 350px;
   height: 60px;
   /* border-radius: 6em; */
@@ -214,11 +212,11 @@ h2.font-header {
 .font-card p {
   /* border: solid 1px red; */
   text-align: center;
-  color: #000;
-  font-size: 30px;
+  /* color: #000; */
+  font-size: 24px;
   line-height: 1em;
   margin: 10px auto;
-  width: 90%;
+  width: 85%;
 }
 
 .bold {
@@ -234,7 +232,7 @@ h2.font-header {
   text-align: center;
   margin: -4px 0 0 0;
   font-size: 12px;
-  color: rgb(0, 0, 0);
+  color: #5d737e;
 }
 
 .inter {
@@ -245,11 +243,61 @@ h2.font-header {
   font-family: 'Roboto Mono', monospace;
 }
 
+.roboto p {
+  font-size: 20px;
+}
+
 .playfair {
   font-family: 'Playfair Display', serif;
+}
+
+/* estilos de texto */
+
+table {
+  margin: 30px auto;
+  width: 85%;
+}
+
+th,
+td,
+tr {
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: left;
+  border-radius: 0.7em;
+}
+
+.property {
+  font-family: monospace;
+  font-size: 12px;
+  /* color: rgb(119, 183, 255); */
 }
 
 footer {
   background-color: #fff;
   height: 100px;
+}
+
+.h1 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.example {
+  font-size: 14px;
+}
+
+.left {
+  width: 30%;
+}
+
+.code {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.p-example {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
 }
